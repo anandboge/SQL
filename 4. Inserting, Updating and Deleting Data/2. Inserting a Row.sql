@@ -8,7 +8,7 @@ INSERT INTO customers(
     city,
     state)
 VALUES (
-	-- DEFAULT, -- optional
+    -- DEFAULT, -- optional
     'Anand',
     'Boge',
     '2001-01-01',
