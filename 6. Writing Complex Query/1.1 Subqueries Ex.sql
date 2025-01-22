@@ -2,7 +2,6 @@
 -- Find employees whose earn more than average
 
 USE sql_hr;
-
 SELECT *
 FROM employees
 WHERE salary > (
