@@ -1,7 +1,7 @@
 USE sql_invoicing;
 
 SELECT
-	client_id,
+    client_id,
     SUM(invoice_total) AS total_sales
 FROM invoices
 WHERE invoice_date >= '2019-07-01'
