@@ -1,5 +1,5 @@
 SELECT 
-	 'First half of 2019' AS date_range,
+	 'First half of 2019' AS date_range, 
     SUM(invoice_total) AS total_sales,
     SUM(payment_total) AS total_payments,
     SUM(invoice_total - payment_total) AS what_we_except 
