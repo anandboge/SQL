@@ -1,6 +1,6 @@
 USE sql_store;
 
-SELECT 
+SELECT  
 	s.name AS shipper,
     p.name AS product
 -- Explicit syntax 
