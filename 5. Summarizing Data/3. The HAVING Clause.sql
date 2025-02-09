@@ -3,7 +3,7 @@ USE sql_invoicing;
 SELECT 
     client_id,
     SUM(invoice_total) AS total_sales,
-    COUNT(*) AS number_of_invoices
+    COUNT(*) AS number_of_invoices 
 FROM invoices
 -- WHERE total_sales > 500 -- here we do not grouped our data
 GROUP BY client_id
