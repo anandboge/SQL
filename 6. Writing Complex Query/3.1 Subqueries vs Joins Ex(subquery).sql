@@ -9,5 +9,5 @@ WHERE customer_id IN (
 	SELECT o.customer_id 
     FROM order_items oi
     JOIN orders o USING (order_id)
-    WHERE product_id = 3
+    WHERE product_id = 3 
 )
