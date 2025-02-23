@@ -1,6 +1,6 @@
 USE sql_invoicing;
 
-SELECT 
+SELECT  
 	date,
     pm.name AS payment_method,
     SUM(amount) AS total_payments
