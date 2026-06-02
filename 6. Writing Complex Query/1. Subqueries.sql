@@ -8,4 +8,4 @@ WHERE unit_price > (
 	SELECT unit_price
     from products
     WHERE product_id = 3
-)
+) 
